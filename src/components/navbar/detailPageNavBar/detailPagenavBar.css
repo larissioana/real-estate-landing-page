@@ -1,0 +1,152 @@
+.nav-detail 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5.5275rem;
+    padding: 1rem 7.3rem;
+    background: rgba(238, 248, 255, 1);
+}
+
+.nav-center 
+{
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav-center a, 
+.nav-right a
+{
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: rgba(30, 30, 30, 1);
+    font-weight: 300;
+}
+
+.nav-search 
+{
+    width: 480px;
+}
+
+.nav-left 
+{
+    display: flex;
+    align-items: center;
+}
+
+.nav-left a
+{
+    font-weight: 900;
+    color: rgb(37, 76, 105);
+    text-decoration: none;
+    font-size: 1.6rem;
+}
+
+@media screen and (max-width: 950px)
+{
+    .burger
+    {
+        display: flex;
+        gap: .3rem;
+        flex-direction: column;
+        cursor: pointer;
+    }
+
+    .line1,
+    .line2,
+    .line3 
+    {
+        width: 2.5rem;
+        height: .3rem;
+        background: black;
+    }
+
+    .nav-detail 
+    {
+        padding: 1rem 1rem;
+    }
+
+    .nav-center,
+    .nav-right 
+    {
+        display: none;
+    }
+    .nav-search 
+    {
+        width: 300px;
+    }
+
+    .nav-left 
+    {
+        gap: 2rem;
+    }
+
+    .sign-up
+    {
+        display: none;
+    }
+
+    .mobile-links 
+    {
+        position: absolute;
+        top: 4rem;
+        right: 0;
+        width: 100%;
+        min-height: 100vh;
+        background: rgba(238, 248, 255, 1);
+        z-index: 10;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1.5rem;
+        flex-direction: column;
+    }
+
+    .nav-links-mobile
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1.5rem;
+    }
+
+    .mobile-navigation 
+    {
+        position: absolute;
+        top: 5rem;
+        width: 100%;
+        background: white;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 3rem;
+        align-items: center;
+    }
+
+    .nav-center-mobile
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+    }
+
+    .nav-center-mobile a,
+    .nav-right-mobile a 
+    {
+        text-decoration: none;
+        color: rgba(30, 30, 30, 1);
+        font-weight: 300;
+    }
+}
+
+@media screen and (max-width: 600px)
+{
+    .nav-search 
+    {
+        width: 200px;
+    }
+}

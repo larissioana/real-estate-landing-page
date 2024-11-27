@@ -1,0 +1,19 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body 
+{
+  overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(238, 248, 255, 0.7));
+  background: rgb(255, 255, 255);
+}
+
+img 
+{
+  object-fit: cover;
+}

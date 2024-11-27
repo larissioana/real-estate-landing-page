@@ -1,0 +1,99 @@
+.header-desc 
+{
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+    gap:3rem;
+}
+
+.header-text 
+{
+    padding: 4rem 0rem 0rem 5rem;
+    object-fit: cover;
+}
+
+.form 
+{
+    margin-left: 5rem;
+    padding: 0.3rem .7rem;
+    display: flex;
+    max-width: 450px;
+    align-items: center;
+    background: rgba(238, 248, 255, 0.8);
+    justify-content: space-between;
+    border-radius: 12.15px;
+}
+
+.form input 
+{
+    border: none;
+    background: none;
+    width: 100%;
+    padding: .3rem;
+}
+
+.form input::placeholder
+{
+    font-size: 1.1rem;
+    color: rgb(165, 165, 165);
+    font-weight: 300;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.form input:focus
+{
+    outline: none;
+}
+
+.search-img
+{
+    object-fit: cover;
+}
+
+.cards-wrapper 
+{
+    padding-top: 4rem;
+}
+
+@media screen and (max-width: 1001px)
+{
+    .header-desc
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .form 
+    {
+        margin-left: 0rem;
+    }
+
+    .header-text
+    {
+        max-width: 400px;
+        align-self: center;
+        padding: 5rem 0rem 2rem 0rem;
+    }
+
+    .search-img 
+    {
+        width: 50px;
+        height: 50px;
+    }
+
+    .header 
+    {
+        height: auto!important;
+    }
+}
+
+@media screen and (max-width: 1001px)
+{
+    .header
+    {
+        margin-top: -1.1rem;
+    }
+}
